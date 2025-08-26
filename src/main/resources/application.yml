@@ -1,0 +1,26 @@
+
+# Puerto de  comunicacion de  la  aplicacion
+server:
+    port: 8090
+
+
+
+spring:
+    application:
+        name: control-calidad-api
+# configiracion de  la comunicacion con la  base de datos mysql
+
+    datasource:
+        url: jdbc:mysql://localhost:3306/db_controlapi
+        username: root
+        password: Bere20#$A
+        driver-class-name: com.mysql.cj.jdbc.Driver
+#configuracion de nuestro ORM -jpa
+    jpa:
+        hibernate:
+          ddl-auto: update
+        properties:
+            hibernate:
+                format_sql: true
+        show-sql: true
+
