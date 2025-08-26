@@ -13,7 +13,7 @@ spring:
     datasource:
         url: jdbc:mysql://localhost:3306/db_controlapi
         username: root
-        password: Bere20#$A
+        password: nosedicelacontrasenajeje
         driver-class-name: com.mysql.cj.jdbc.Driver
 #configuracion de nuestro ORM -jpa
     jpa:
